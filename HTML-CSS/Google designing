@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Google deasining example
+        </title>
+
+        <style>
+            a {
+                color: #195e83;
+                text-decoration: none ;
+
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .header {
+                background-color: white;
+                float: right;
+            }
+            .header ul li{
+                display: inline-block; 
+                margin-left: 10px;
+                margin-right: 1s4px;
+            }
+            .header .btn{
+                 background: #69bdd2;
+                 color: #fff;
+                 padding: 8px;
+                 border-radius: 3px;
+            }
+            .clearfix{
+                clear: both;
+            }
+
+            .search-box {
+                width: 500px;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 100px;
+            }
+            .search-box .search-input {
+                width: 400px;
+                padding: 10px;
+                border-radius: 10px;
+                border: 1px solid skyblue; 
+            }
+            .search-box .btn-search {
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #ccc;
+                border: none;
+                margin-right: 10px;
+                border-radius: 5px;
+
+            }
+            .search-box .btn-search:hover {
+                border: 1px solid #ccc;
+                cursor: pointer;
+            }
+
+            ul {
+                padding: 0;
+                margin: 0;
+            }
+
+            .footer {
+                position: absolute;
+                bottom: 0;
+                width: 99%;
+                background-color: #ccc;
+                border-top: solid 1px blue;
+                padding-top: 15px ;
+            }
+            .footer ul li {
+                display: inline;
+                margin-left: 8px;
+                padding-bottom: 5px;
+
+
+            }
+
+            .right-footer {
+                float: left;
+                margin-right: 10px;
+
+
+            }
+
+            .left-footer {
+                float: right;
+                margin-left: 10px;
+
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="header">
+            <ul>
+                <li>
+                    <a href="#">Gmail</a>
+
+                </li>
+                <li>
+                    <a href="#">Image</a>
+
+                </li>
+                <li>
+                    <a href="#"><img src="Meno.PNG" alt="Meno"></a>
+
+                </li>
+                <li>
+                    <a href="#" class="btn">Sign in</a>
+
+                </li>
+            </ul>
+
+        </div>
+        <div class="clearfix">
+
+        </div>
+        <div class="search-box">
+            <div class="Google logo">
+                <img src="Logoo.PNG" alt="Logo">
+
+            </div>
+            <form action="">
+                <input type="text" class="search-input"><br>
+                <input type="submit" value="Google search" class="btn-search">
+                <input type="submit" value="Ask me a question" class="btn-search">
+            </form>
+ 
+        </div>
+        <div class="footer">
+            <div class="right-footer">
+                <ul>
+                    <li><a href="#">Privecy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Setting</a></li>
+                </ul>
+
+            </div>
+            <div class="left-footer">
+                <ul>
+                     <li><a href="#"></a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How search works</a></li>
+                   
+                </ul>
+            </div>
+
+        </div>
+
+    </body>
+
+
+</html>
